@@ -1,0 +1,971 @@
+    *{
+        margin:0;
+        padding:0;
+        }
+    html {
+        height:100%;
+        }
+    body {
+        font-family: Open Sans, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        background:#E9F3FC url(/bildoj/fona.png) repeat-x;
+            }
+    #enhavo{
+        margin:0 auto;
+            }
+    #kapo {
+      width:960px;
+        height:80px;
+        display: block; 
+        margin-top:20px;
+        margin-left: auto; 
+        margin-right: auto;   
+    }
+   
+    #titola_kapo {
+    height:70px;
+        background-color:#fff;
+        border: 1px solid #25aae1;
+        overflow:hidden;    
+        border-radius:5px;
+           
+    }
+    
+    #titolo{
+        width:40%;
+        height:120px;
+        display: block; 
+        margin-top:20px;
+        margin-left: auto; 
+        margin-right: auto              					
+            }	
+
+    #trovu {
+        width:100%;
+        margin-top:10px;
+        margin-left: 10px; 
+        margin-right: 40px  
+           }
+   #trovu .stiligo {
+    width: 120px;
+    }
+    
+   
+    #blokaro { 
+        background-color:#fff;
+        border: 1px solid #25aae1;
+        overflow:hidden;    
+        border-radius:5px;
+        
+             }
+    .navigado{
+       margin: 0 auto; 
+       width:960px;     
+	       }            
+    .navigado .tabo, .navigado .ero {
+        margin: 0px auto;
+        padding: 0 10px 0 5px;
+        overflow: hidden;
+        height: 35px;
+}
+    .navigado .tabo li {
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: .05em .1em 0;
+        height: 40px;
+        overflow: hidden;
+        position: relative;
+}
+    .navigado .tabo a {
+        float: left;
+        height: 2em;
+        line-height: 1.6em;
+              
+        border-radius: 8px 8px 0px 0px;
+        background: #99CCFF;
+        border-style: solid;
+        border-color:#25aae1;
+        border-width: 1px 1px 0px 1px;
+        padding: 2px 10px;
+        color: #000;
+        text-decoration: none;
+            }
+    .navigado .tabo .elektita a {
+        background: #FFF;
+           
+          box-shadow: #99CCFF 0 0 .25em;
+            }
+    .navigado .tabo a:hover {
+        background: #FFF;
+        
+        background: linear-gradient(#99CCFF, #FFF 70%);
+                }
+  .navigado .ero {margin-bottom:16px} 
+  .ero li {     
+  font-size:130%;
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: .1em .1em 0;
+        height: 45px;
+        overflow: hidden;
+        position: relative;          
+}
+  .ero a {
+        float: left;     
+        height: 35px;
+        line-height: 25px;
+        padding: 5px 10px;     
+        text-decoration:none;
+                 }           
+  .ero .elektita {
+           color:#ff6633;
+                 }
+  .navigado .ero a:hover {
+       color:#0000FF;
+       text-decoration:underline;
+                }                
+    .linio {   
+    border-right:1px solid #25aae1;   
+    }  
+    .nevidebla {
+        display: none;
+    }
+    #chefa_bloko {      	  
+		max-width:960px;
+        margin: -1px auto 20px auto;                              
+      				}
+    .bloko {
+        float:left;
+		margin:15px 0 15px 15px;
+        padding:5px 0 5px 0px;
+        width:210px;        
+           }                     
+    .menuo {         
+	   list-style:none;
+       clear:both;       
+       margin-left: 0px;
+       padding:5px 5px 15px 10px;
+       	 }	
+    .menuo li {
+        margin-right: 10px; 
+        padding:12px 10px;
+        text-align:right; 
+        color: #000; 
+        font-size:90%;
+        margin-bottom:5px;
+        
+        border-radius: 8px;
+        background: #E9F3FC;
+        border: 1px solid #25aae1; 
+        background: linear-gradient(#99CCFF, #FFF 40%);
+        }
+    .menuo  a {
+       text-decoration:none;             
+             }
+    li.aktiva  {
+     
+       background: #99CCFF;
+       background: linear-gradient(#99CCFF, #E9F3FC 80%);
+            }
+    .bloko .menuo li :active, .bloko .menuo li:hover{
+			
+			background: linear-gradient(#99CCFF, #FFF 70%);
+             }            
+    .lingvo_elektilo {  
+			margin:30px 0 0 0;
+			text-align:center;
+             }
+    .lingvo_elektilo a{
+			padding: 3px 2px 3px 3px;                
+			background-color:#E9F3FC;
+                }
+    .lingvo_elektilo :visited,  .lingvo_elektilo :link, .lingvo_elektilo :active {
+			color:#000;
+			text-decoration:none;
+             }  
+    .lingvo_elektilo :hover {
+			background-color: #99CCFF;
+             }
+	.bloka {
+			margin:15px 0 15px 220px;
+			padding:5px 0 0 25px;
+			max-width:680px;
+   	        }
+    .bloka h3, .bloka h4, .bloka h5, .bloka h6, .bloka h2, .bloka h1{
+			margin:15px;
+            }
+    h2 { 
+			text-align: center;
+			font-size:24px; 			             
+				}				
+    .pagha_titolo {
+			text-align: center;
+			font-size:24px;
+			margin: 15px 0;
+                    }
+    .pagha_titolo_maldekstra {
+			text-align: left;
+			font-size:24px;
+			margin: 15px 0;
+                  }
+    .sekcia_titolo {
+			color:#FF6600;       
+			font-size:240%;
+			margin: 25px 10px 40px 10px;      
+                 }
+    .demando {
+			margin:10px 20px 10px 0px;
+			float:right;
+			font-size:90%;
+			}       
+	.demando a {text-decoration:none;border-bottom:1px dashed blue;}
+    .dekstro {float:left;position:absolute} 
+    .dekstra_noto {z-index:7;float:left;position:absolute;left:350px; 
+    background-color: #FFF;width: 150px;padding:5px;text-align: center;
+       
+        border-radius: 8px} 
+     .informa_noto {z-index:7;float:left;position:absolute; 
+    background-color: #FFF;width: 250px;padding:5px 10px;margin:-20px 0px 0px -20px;
+   border:1px solid green;
+       
+        border-radius: 8px}     
+        
+      .flanka_informo { float:right; 
+       text-align:right;
+       
+       background-color: #90EE90;
+       min-width: 25px;padding:15px;margin:20px 35px 0px 20px;
+       border:1px solid green;
+       
+       border-radius: 8px
+        }
+     .nota_anguleto {
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 14px;
+        left: -34px;
+        display: block;
+        border-top: 10px solid #FFF; 
+        border-left: 35px solid transparent; /* IE fix */
+        border-left: 35px solid rgba(0,0,0,0); 
+        overflow: hidden; /* IE fix */
+        }
+         .informnota_anguleto {
+             width: 0;
+        height: 0;
+        position: absolute;
+      z-index:8;
+        margin-left: -54px;
+        border-bottom: 20px solid #FFF; 
+        border-left: 35px solid transparent; /* IE fix */
+        border-left: 35px solid rgba(0,0,0,0); 
+        overflow: hidden; /* IE fix */
+        }
+         .inf_ang {
+             width: 0;
+        height: 0;
+        position: absolute;
+      z-index:7;
+        margin-left: -55px;
+        border-bottom: 20px solid green; 
+        border-left: 35px solid transparent; /* IE fix */
+        border-left: 35px solid rgba(0,0,0,0); 
+        overflow: hidden; /* IE fix */
+        }
+        
+    .informa_kampo {text-align:right;margin: 20px -10px 30px 0px;
+    }  
+
+   	.bloka h3{ 
+        text-align: center;
+        color:#FF6600;
+		font-size:18px; 			             
+				}
+    .formatigo {
+        border-left: 1px solid #25aae1;
+        padding-left: 25px;    	
+              }
+    .limigo p, .formatigo p  {                  
+		padding: 7px 7px;
+		margin-right:20px;
+		text-align:justify;
+                   }     
+    .formatigo ul, .formatigo ol, .limigo ul, .limigo ol{
+        padding: 7px 0 7px 50px;	
+                    }
+    .formatigo ul li, .limigo ul li {
+        padding: 3px 25px 10px 5px;
+	text-align:justify;
+                    }
+    .formatigo img,  .limigo img{
+        padding:5px;  
+                   }
+    .rilataj_ligiloj {
+        width:390px;
+        margin: 20px 0 0 40px;
+        padding: 5px 10px 10px 10px;
+        background:#FAFAD9 url(/dat/fiksileto.png) no-repeat  370px 0px;
+        box-shadow: 2px 5px 5px #888;                      
+                        }
+    .rilataj_ligiloj h3 {
+        text-align: center;
+        margin:5px 5px 15px 5px;padding-right:30px
+                    }
+   .rilataj_ligiloj a {
+          text-decoration:none;border-bottom:1px dashed blue;cursor:pointer; 
+          }
+    
+     #fiksilo_maldekstra
+     {background:url(/dat/fiksileto.png) no-repeat  0px;height:30px;width:30px;float:left
+     }
+     .ekstera
+     {background:url(/dat/ekstera.png) no-repeat  0px;height:16px;width:16px; padding-left:16px;
+     }
+                    
+    .tabelo, .tabelo1 {
+        margin: 0px 20px 0px 0px;  
+            border-spacing: 0px;                          
+            }
+    .tabelo td {
+        padding: 5px;
+        border-bottom: 1px dashed #ccc;line-height: 140%;   
+                }
+    .tabelo1 td {
+        padding: 5px;
+        line-height: 140%;
+               }
+     .substrekita {   border-bottom: 1px dashed #ccc;line-height: 140%;} 
+        
+    .flageto img, .dua_parto img {
+        text-align: left; vertical-align: bottom;
+        }
+        .bildeto {
+        text-align: left; vertical-align: bottom; margin-bottom:-5px;
+        }
+        .bildeto2 {
+        text-align: left; vertical-align: bottom; margin-bottom:-2px;
+        }
+       .flaga {
+        text-align: right; vertical-align: bottom; width:16px;height:11px
+        }
+         .butono img {
+        vertical-align: bottom; margin-bottom:2px;
+        }
+    .enkonduka {line-height: 160%; font-size:110%;background-color: #E9F3FC;padding: 10px; margin-right:10px}
+    .enkonduketo {background-color: #E9F3FC;padding: 5px;margin-top:7px}
+      .kontakta {background-color: #E9F3FC;padding: 5px;margin:7px 10px;text-align:right;}
+    .granda {font-size: 110%; }
+    .grandaH {float:left; width:150px;height: 20px;margin-right:20px; padding:0px 5px 7px 0px ;background-color: #E9F3FC;text-align:right;}
+    .eta {font-size: 90%}
+    .listeto {font-size: 90%; padding: 5px 0px;}
+    .granda20 {font-size: 20px;}
+    .granda24 {font-size: 24px;}
+    .granda2em {font-size: 2em;}
+    .granda18 {color: #000080; float:left; width:100px;height: 24px;}
+      
+    .blanka {color: #fff; font-size: 20px; background:transparent url(/dat/menufon.gif) center center repeat-x;padding:5px 15px}
+    .griza {color:#7F7F7F}
+    .dua_parto {height: 18px;}
+    .lista {
+          padding: 7px 0 7px 20px; list-style-image: url(/dat/sago.gif);   
+           }
+    .lista li {
+          padding-bottom: 10px;
+               }
+    .alineo {margin: 15px 0; padding-bottom: 15px; border-bottom:1px dashed #ccc}
+    #alfabeto > span {padding:0px 2px}
+    #alfabeto > span:hover{color:#fff}
+    .dika, strong, h4 {
+          font-weight: bold;
+          }
+    .rugha {color: #ff6633;   }
+    .hela {color: #FFF;font-weight: bold; }
+   
+    .unua_kolumno {
+          text-align:right;
+          width:40%;
+          padding-right:10px;
+                }
+      .unua_kolumno0 {
+          width:20%;
+          padding-right:10px;
+                }
+      .unua_kolumno1 {
+          text-align:right;
+          width:20%;
+          padding-right:10px;
+                }
+    .radio {padding:6px; width: 20px; }
+    .vico {
+          border-bottom: 1px solid #99CCFF;
+                }
+    .nivelo {width:100%;margin:5px 0px;}
+    .vico img {
+         float: left; margin:5px 10px 0 0;clear:both;
+              }
+    .spaco {padding: 7px 4px;}
+    .nobr {white-space:nowrap;}
+    .noto {color:#3366FF}
+    .klarigo {font-size:75%;color:#339966}
+    .mapeto {width:100%;height:300px; margin:10px;}
+    div.olControlAttribution, div.olControlScaleLine {
+          font-family: sans-serif;
+          font-size: 0.7em;
+          bottom: 3px;
+      }
+      .reen {clear:both;margin:10px 0px}
+    #teknika {
+         background: url(/dat/aktualigita.png) no-repeat;  
+         margin: 40px 0 0 25px;
+         padding: 7px 0 7px 25px;
+         width:300px;
+         float:left;
+         color: #808080; 
+         font-size:75%;
+             }
+   .chelo {width:40px;   display: inline-block;}  
+   .chelo150 {width:150px; padding:5px 0px;  display: inline-block;}
+   .chelo200 {width:200px; padding:5px 0px;  display: inline-block;}   
+    .chelo250 {width:250px;   display: inline-block;}   
+              
+    .menuujo {  
+          text-align: center;
+          width:100%; 
+          padding:0px;
+            }
+    .menuujo_aktuale {
+        text-align: center;
+        margin-bottom:70px;
+        width:100%;            
+            }
+       .submenuo{
+        background-color:#FFF; 
+        white-space:nowrap;
+        float: left;
+        padding-right:10px;
+        border: 1px solid #25aae1;
+        border-radius:5px;
+            }
+    .submenuo li{
+        width: 20%;
+        display: inline;  
+            }
+    .submenuo li a{
+        float: left;
+        color: #808080;
+        padding: 8px 20px;
+        text-decoration: none;
+        border-right: 1px solid white;
+            }
+    .submenuo li .indikita{
+        color:#FFF;  background-color: #99CCFF;
+            }
+  
+    .submenuo li a:hover{
+        color: #000;         
+        background: linear-gradient(#99CCFF, #FFF 70%);
+            }
+    
+     .rondigo {border-radius:5px 0px 0px 5px; }      
+            
+     .menu_elektilo {
+          display:none;
+          position: absolute;
+          margin-left:690px;
+          margin-top:-15px;
+          padding:5px;
+          width:100px;  
+         border: 1px solid #25aae1; 
+         border-radius:5px; 
+         background:#fff;
+        }
+          .menu_elektilo div {
+            padding-bottom: 7px;
+            }
+     .mpanelo {    
+            margin:15px 0 0 20px;  
+            }       
+       .mpanelo span {
+            padding:5px;
+            margin-left: 5px;
+            border-width:1px 1px 1px 1px;
+            border-style: solid;
+            border-color: #99CCFF;
+            z-index:1;
+            border-radius:0px 5px 0px 0px; 
+            background:#fff;
+            }
+         .mpanelo span:hover{
+        color: #000;
+         
+        background: linear-gradient(#99CCFF, #FFF 30%);
+            }
+            .mpanelo .elektita{
+        color: #000;
+        padding:7px 5px;
+        border-bottom-width: 0px;
+        background: linear-gradient(#99CCFF, #FFF 70%);
+        -pie-background: linear-gradient(#99CCFF, #FFF 70%);
+         z-index:5; 
+            }
+            .mpanelo a {
+                 text-decoration: none;color: #000;
+                }
+        .mlisto {
+         padding:15px;
+         border: solid 2px #99CCFF;
+         margin-top: 5px; 
+         z-index:2;       
+        }
+    .marghenoj {margin:0px 20px;}   
+   
+    .kol {width:100%;margin:0px 20px;}
+    .kol td img {
+        padding:0px;
+        }
+    .revuo td {
+        width:200px; height: 100px;
+        padding-right:10px;
+                }
+    .revuo td img {
+        float:left;
+               }
+    .informoj {
+        
+        padding:10px;
+        margin:0px 10px 15px 0px;
+        border: 1px solid #99CCFF;
+        border-radius:5px;
+	           }
+    .ntitolo {
+        font-size:130%;
+        color:#000080;
+        padding: 10px 0px;
+            }
+    .nteksto {
+        font-size:85%;margin-bottom:35px;width:95%;
+           }
+    .nteksto p {
+        margin-bottom:15px;
+        }
+
+    .indikilo { text-decoration:none; cursor:pointer;color:#000080;}
+    .dato {font-size:75%;color:#808080;padding:5px 0}
+
+    .formularo p {
+        padding-bottom: 15px;
+        margin-left: 10px;
+                }
+    .formularo td {
+        padding:5px;
+        }
+    .formularo h4 {
+        color:#3366FF;    background-color:#E9F3FC; padding:5px 10px;
+            }
+    .ligilo {
+        text-decoration:none;border-bottom:1px dashed blue;cursor:pointer;
+            }
+     .ligilo img, .demando img, .menuero img {
+        vertical-align: bottom;padding:3px 3px 5px 0px
+        }
+    .ligileto {
+        text-decoration:none;border-bottom:1px dashed blue;cursor:pointer;font-size:75%;color:#0000FF
+            }
+    .lig { font-weight: bold; color: #ff6633; cursor:pointer;}
+      .retadreso {
+        text-decoration:none;border-bottom:1px dashed blue;cursor:pointer;color:#0000FF
+            }
+    .kolumno {
+        float:left;
+        margin-right: 10px;
+        }
+    .kolumno_dekstra {
+        float:right;
+        margin: 5px 10px;
+       
+        }
+    .kadro {
+        background-color:#E9F3FC;
+        border:1px solid #99CCFF;
+        padding:10px;
+      margin:10px 10px 10px 0px;
+            }
+    .kadreto {
+        background-color:#FFF;
+        border:1px solid #99CCFF;
+        padding:5px 15px;
+        margin:5px 10px 5px 0px;
+            }
+       .kadreto_d {
+        background-color:#FFF;
+        border:1px dashed #99CCFF;
+        padding:5px 15px;
+        margin:5px 10px 5px 0px;
+            }
+    .ovalo {
+        background-color:#99CCFF;
+        border:1px solid #99CCFF; 
+        padding:5px 15px;
+        margin:20px 10px 20px 0px;
+        
+        border-radius:5px;    
+            }
+     .duonovalo {
+          background-color:#99CCFF;
+          border:1px solid #99CCFF; 
+          padding:5px 15px;
+          margin:10px 10px 10px 0px;
+          border-radius:5px 5px 0px 0px;    
+            }
+         .ovaleto {
+         background-color:#CCFFCC;
+         border:1px dotted  #99CCFF; 
+         padding:5px 15px;
+         margin:2px 0px;
+         
+         border-radius:5px;  
+            }    
+                   
+          .anonco_konfirma {
+        background-color:#CCFFCC;
+        border:1px dashed #99CCFF;
+        padding:15px;
+        margin:25px 20px 25px 0px;
+        border-radius:5px;
+            }
+        .anonco_averta {
+        background-color:#FFC0CB;
+        border:1px dashed #99CCFF;
+        padding:15px;
+        margin:25px 20px 25px 0px;
+        border-radius:5px;
+         }
+            
+         .fona_kadro {
+        color:#3366FF;    background-color:#E9F3FC; padding:5px 10px;font-size:120%;
+        margin:0px 10px 20px 0px;
+            }  
+        .fona_kadro_verda {
+        color:#3366FF; background-color:#CCFFCC;margin:0px 10px 20px 0px;padding:5px;
+            }  
+        .fono_verda {
+       background-color:#CCFFCC;  margin:10px;
+            }
+        .veziko {  
+       background-color:#E9F3FC;  padding:3px; border-radius:5px;
+       font-size:85%;
+            }    
+       .spuroj {
+       font-size:90%;
+       text-align:center;
+       background-color:#E9F3FC;
+       padding:10px;
+       margin:10px;
+      }
+    #landa_listigo {
+        position:absolute;
+        margin-left: -50px;
+        margin-top: -50px;
+         z-index:7;
+                   }
+    #jar_listigo {
+        position:absolute;
+        top:265px;
+        margin-left:173px;
+               }
+      .parto_elektita {
+        background:#E7FEF3;
+                }
+      .centra {text-align:center;}
+      .dekstra{float:right}
+     .dekstra_teksto{text-align:right}
+
+    .stiligo{
+        float:left;
+        background:#fff url(/bildoj/trovado.png) 5px -8px no-repeat;
+        border:1px solid #25aae1;
+        height:28px;
+        width:250px;        
+        text-indent:25px;
+        display:block;
+        font-size:15px;
+        color:#666666;
+	    border-radius:5px;
+}
+   .prembutono {
+        background-color:#E9F3FC;
+        border:1px solid #99CCFF;
+        text-align:center;
+        padding:3px;
+        margin-bottom:10px;
+          
+        background: linear-gradient(#99CCFF, #FFF 80%);
+ 
+            }
+
+   .prembutono:hover, .butono:hover,  .butonego:hover, .kbutono:hover   {
+        background: linear-gradient(#99CCFF, #FFF 100%);
+        color:#0000FF;
+        }
+    .butono {
+        height:30px;
+        padding:3px 6px;
+        min-width: 50px;
+        border:1px solid #25aae1;
+        background-color:#E9F3FC;    
+        border-radius:5px;
+     }
+
+    .butoneto {
+        font-family: monospace;
+        padding: 3px;
+        border: 1px solid blue;
+        margin:10px 5px 5px 5px;
+            }
+    .butonego {
+        height:100px;
+        width: 99%;
+        margin:10px 10px 10px 0px;
+		 padding: 25px;
+        color:#0000FF;
+        font-size: 180%;
+        border:1px solid #25aae1;
+        background-color:#1E90FF;       
+        border-radius:5px;    
+    }
+    .neaktiva {
+      background-color:#E5E5E5;
+      color:#BFBFBF;
+    }
+      .klakkesto {
+     height:20px;  
+     width: 50px;      
+     }
+
+         .btg {
+        color:#FFF;
+        border-width:0px;
+        width:240px;
+        height:38px;
+        background:transparent url(/dat/bt1.png) no-repeat;
+        font-size: 120%;
+            }
+   
+        .bt {
+        margin: 0px 25px;
+       }
+       
+      .kbutono {
+        height:50px;
+        width: 99%;
+        margin:10px;
+		 padding: 10px 0px;
+        color:#FFF;
+        font-size: 120%;
+        border:1px solid #25aae1;
+        background-color:#1E90FF;       
+        border-radius:5px;    
+             }
+     .kampo {
+        height:32px;width: 185px; 
+        border-radius:5px;  
+        border:1px solid #25aae1;
+        padding:4px; 
+        }
+       .kampo_longa {
+        height:32px;width: 90%;   
+        border-radius:5px;  
+        border:1px solid #25aae1;
+        padding:4px; 
+        }   
+     .kampo_meza {
+        height:32px;width: 85px;
+        font-size:20px;
+        text-align:right; 
+        border-radius:5px;  
+        border:1px solid #25aae1; 
+        padding:4px;  
+        }    
+        .kampo_stiligita {
+        height:32px;width: 90%;  
+        border:1px solid #25aae1;
+        text-indent:25px;
+        display:block;
+        font-size:15px;
+        color:#666666;
+	    border-radius:5px; 
+        }   
+         .kampo_notoj {
+        height:50px;width: 100%;  
+        border:1px solid #25aae1;
+        display:block;
+        font-size:15px;
+        color:#666666;
+	    border-radius:5px; 
+	    padding:4px; 
+        }   
+   .kampo_areo {
+        height:100px;width: 90%;  
+        border:1px solid #25aae1;
+        display:block;
+        font-size:15px;
+        color:#666666;
+	    border-radius:5px; 
+	    padding:4px; 
+        }           
+        
+      .s_elektilo {
+        height:32px;width: 85px;
+        background-color:#fff;
+        font-size:20px;
+        border-radius:5px;  
+        border:1px solid #25aae1; 
+        }       
+    
+    .supren {
+        width:75px;
+        height:35px;
+        margin:20px 30px 0px 0px;
+        padding-top: 25px;
+        float:right;
+        text-align: center;
+        cursor:pointer;
+        background: transparent url(/bildoj/supren.png) no-repeat center top;
+            }
+    .malsupren {
+        height:45px;
+        width: 100%;
+        text-align: center;
+        background: transparent url(/bildoj/malsupren.png) no-repeat center bottom;   
+            }
+    #teknikaj_ligiloj {
+        width:200px;
+        height:20px;
+        outline:none;
+        bottom:5px;
+        text-align:center;
+        margin: 10px 10px 30px auto;
+        font-size:90%;
+                }
+    #sub {	
+        width:100%;
+        height:27px;
+        outline:none;
+        bottom:5px;
+        text-align:center;
+        margin: 40px auto 10px auto;
+        color:#969696;
+               	}
+    #averto {display:none;margin-top: 50px;font-size:150%;color:#000080;width:50%}
+    #fono{
+   	position: fixed;
+       top: 0;
+	    left: 0;
+	    bottom: 0;
+       right: 0;
+       background: #000;
+       z-index: 1;
+       display: none;
+}
+    #pli_granda {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        min-height: 400px;
+        min-width: 200px;
+}
+    #bferm img{
+        position:relative;
+        left:-15px;
+        top:-15px;
+    }
+    #plus img, #minus img{
+        position:relative;
+        left:-10px;
+        top:20px;
+            }
+    .enhavlista {
+        background-color: #FFF;padding:20px; width:500px;margin-right: 28px;
+        }
+    img {-ms-interpolation-mode:bicubic; border-width: 0px;}
+         
+    .ensaluta_formo {
+        position:fixed;
+        left:35%;
+        top:30%;
+        width:300px;
+        min-height:285px;
+        border:1px solid #99CCFF; 
+        padding:5px 15px;
+        background: linear-gradient(#99CCFF, #E9F3FC 90%);
+	    border-radius:5px;
+       z-index:100;
+        }
+    .ensaluta_formo input {
+       font-size:120%;
+            }
+    #forma_fono {
+        position: fixed;
+        top: 0;
+	    left: 0;
+	    bottom: 0;
+       right: 0;
+       background: #000;
+       z-index: 1;
+       opacity:0.5;
+       -ms-filter: "alpha(opacity=75)";
+        }
+     .desupre {
+        margin-top:1em;
+        }
+    .desupre2 {
+        margin-top:40px;
+           }
+        
+        .marg {margin-left:3px}
+       .marg-dekstra {margin-right: 10px}
+       .ensaluta {margin:10px 40px;float:right;font-size:90%;}    
+           
+#enhavtabela_listo { list-style-image:url("../dat/suben.gif"); margin:0px 10px 20px 0px;
+      background-color:#E9F3FC;
+ }
+
+.regulara {
+	counter-reset: item;
+}
+
+.regulara li {
+	display: block;padding-top:10px
+}
+
+.regulara li:before {
+	 content: counters(item, ".") ". ";
+    counter-increment: item;
+    font-weight: bold;
+}
+.list1 {list-style-position: inside;	text-indent: 20pt;	counter-reset:subsection;
+ }
+ .list1 li:before {
+     counter-increment: subsection;
+	 content: counter(subsection, lower-roman) ". ";
+        }
+ .regulara strong {color:#FF6600;font-size: 110%;}
+
+.reflugu {
+    position: fixed;
+    bottom: 12em;
+    left: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ADD8E6;
+    font-size: 20px;
+    padding: 1em;
+    display: none;
+}
+
+.reflugu:hover {    
+    background-color: #63AEF7;   
+    }
